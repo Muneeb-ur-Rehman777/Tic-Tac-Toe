@@ -1,0 +1,111 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.Body {
+    background: linear-gradient(135deg, #4474bb, #0e1460);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.heading {
+    font-size: 35px;
+}
+
+.box {
+    margin-top: 60px;
+    background: linear-gradient(135deg, #7b7564, #3e4051);
+    width: 390px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #4474bb;
+}
+
+.game {
+    margin-top: 20px;
+    width: 310px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    border: 10px solid;
+    background-color: black;
+}
+
+.btn {
+    font-size: 45px;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    background-color: #4474bb;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #2b4772;
+}
+
+.reset {
+    height: 60px;
+    width: 200px;
+    margin-top: 80px;
+    border: none;
+    background-color: #3e4051;
+    color: white;
+    font-size: x-large;
+    border-radius: 10px;
+    cursor: pointer
+}
+
+.reset:hover {
+    background-color: #7b7564;
+}
+
+.players {
+    display: flex;
+    gap: 20px;
+}
+
+.pl {
+    height: 60px;
+    width: 200px;
+    margin-top: 80px;
+    border: none;
+    background-color: #3e4051;
+    color: white;
+    font-size: x-large;
+    border-radius: 10px;
+}
+.newGame{
+     height: 60px;
+    width: 200px;
+    margin-top: 80px;
+    border: none;
+    background-color: #3e4051;
+    color: white;
+    font-size: x-large;
+    border-radius: 10px;
+    cursor: pointer
+
+}
+.agian{
+    display: flex;
+    gap: 30px;
+}
+.newGame:hover{
+    background-color: #7b7564;
+
+}
+.hide{
+    display: none;
+}
